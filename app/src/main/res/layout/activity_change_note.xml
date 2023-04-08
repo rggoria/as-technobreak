@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color4"
+    tools:context=".ChangeNoteActivity">
+
+
+    <TextView
+        android:id="@+id/tvAddNote"
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:gravity="center"
+        android:text="@string/editNote"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/changeNoteTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/newNoteTitle"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvAddNote"
+        app:layout_constraintStart_toStartOf="@+id/tvAddNote"
+        app:layout_constraintTop_toBottomOf="@+id/tvAddNote" />
+
+    <EditText
+        android:id="@+id/changeContentOfNote"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/newNoteContent"
+        android:minHeight="48dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/changeNoteTitle"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/changeNoteTitle"
+        app:layout_constraintTop_toBottomOf="@+id/changeNoteTitle" />
+
+    <Button
+        android:id="@+id/btnChangeNote"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        android:text="@string/updateNote"
+        app:layout_constraintEnd_toEndOf="@+id/changeContentOfNote"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/changeContentOfNote"
+        app:layout_constraintTop_toBottomOf="@+id/changeContentOfNote" />
+
+    <Button
+        android:id="@+id/btnDeleteNote"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/deleteNote"
+        app:layout_constraintEnd_toEndOf="@+id/btnChangeNote"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btnChangeNote"
+        app:layout_constraintTop_toBottomOf="@+id/btnChangeNote" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

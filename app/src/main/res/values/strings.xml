@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">TechnoBreak</string>
+    <string name="title_activity_notes">NotesActivity</string>
+    <!-- activity change password -->
+    <string name="changePasswordTitle">Change Password</string>
+    <string name="changePasswordDescription">Here is where you change your password</string>
+    <string name="currentPassword">Current Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="saveChanges">Save Changes</string>
+
+    <!-- activity change username -->
+    <string name="changeUsername">Change Username</string>
+    <string name="changeUsernameDescription">Here is where you input your new username</string>
+    <string name="newUsername">New Username</string>
+
+    <!-- create note -->
+    <string name="addNewNote">Add New Note</string>
+    <string name="newNoteTitle">Title</string>
+    <string name="newNoteContent">Type here...</string>
+
+    <!-- Login -->
+    <string name="loginTitle">Login</string>
+    <string name="loginTitleDescription">Here is where you login to your account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="loginButton">Login</string>
+    <string name="notHaveAccount">Not have account? Sign Up</string>
+
+    <!-- Profile Activity -->
+    <string name="profileActivityTitle">Profile Activity</string>
+    <string name="profileActivityDescription">Input your Information</string>
+    <string name="username">Username</string>
+    <string name="currentUsername">Current Username</string>
+    <string name="currentEmail">Current Email</string>
+    <string name="changePassword">Change Password</string>
+
+    <!-- Activity Register -->
+    <string name="signUp">Sign Up</string>
+    <string name="signUpDescription">Register your account here</string>
+    <string name="register">Register</string>
+    <string name="registeredAccount">Already have an account?</string>
+
+    <!-- Notes Layout -->
+    <string name="thisIsMyMessage">This is my message</string>
+    <string name="thisIsMyText">This is my text</string>
+
+    <!-- Change Note Activity -->
+    <string name="editNote">Edit Note</string>
+    <string name="updateNote">Update Note</string>delete note
+    <string name="deleteNote">Delete Note</string>
+
+</resources>
